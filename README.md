@@ -40,7 +40,7 @@ Aun en construccion.
 
 - 📧 Email: segwanda12@gmail.com
 - 💼 LinkedIn: [Maria Gargoles]((https://www.linkedin.com/in/maria-gargoles-lajarin-ab9065101/))
-- 🌐 Portfolio: ([enlace_a_tu_portfolio](https://mariagargoles.github.io/)https://mariagargoles.github.io/)
+- 🌐 Portfolio: ([Portfolio](https://mariagargoles.github.io/)https://mariagargoles.github.io/)
 
 ## ¡Gracias por Visitar! 🙌
 
