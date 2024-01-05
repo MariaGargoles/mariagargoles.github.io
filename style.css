@@ -11,4 +11,45 @@
     font-style:oblique; 
 }
 
+@font-face {
+    font-family: 'PermanentMarker-Regular'; /* Puedes asignar el nombre que prefieras */
+    src: url('assets/fonts/PermanentMarker-Regular.ttf') format('truetype'); /* Ajusta la ruta según la ubicación de tu fuente */
+    font-weight: normal;
+    font-style: normal;
+}
 
+.head-title {
+    font-family: 'PermanentMarker-Regular', sans-serif; /* Usa la fuente en tu página */
+    display: inline-block; /* O puedes usar display: inline; según tu preferencia */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+    margin-right: 8px; /* Ajusta el margen según tu preferencia */
+}
+
+
+@font-face {
+    font-family: 'Rock Salt'; /* Puedes asignar el nombre que prefieras */
+    src: url('assets/fonts/RockSalt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+.about-title {
+    font-family: 'Rock Salt', sans-serif; /* Usa la fuente en tu página */
+    margin-right: 8px;
+    
+    
+}
+
+@font-face {
+    font-family: 'ArchitectsDaughter-Regular'; /* Puedes asignar el nombre que prefieras */
+    src: url('assets/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-body {
+    font-family: 'ArchitectsDaughter-Regular', sans-serif; /* Usa la fuente en tu página */
+    margin-right: 8px;
+    
+}
