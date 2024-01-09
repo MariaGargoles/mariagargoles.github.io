@@ -586,10 +586,6 @@ video {
   visibility: collapse;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .relative {
   position: relative;
 }
@@ -916,10 +912,6 @@ video {
   font-weight: 600;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -970,7 +962,7 @@ video {
 
   /* Puedes asignar el nombre que prefieras */
 
-  src: url('https://mariagargoles.github.io/assets/fonts/PermanentMarker-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/PermanentMarker-Regular.ttf') format('truetype');
 
   /* Ajusta la ruta según la ubicación de tu fuente */
 
@@ -995,7 +987,7 @@ video {
 
   /* Puedes asignar el nombre que prefieras */
 
-  src: url('https://mariagargoles.github.io/assets/fonts/RockSalt-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/RockSalt-Regular.ttf') format('truetype');
 
   font-weight: normal;
 
@@ -1013,7 +1005,7 @@ video {
 
   /* Puedes asignar el nombre que prefieras */
 
-  src: url('https://mariagargoles.github.io/assets/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
 
   font-weight: normal;
 
