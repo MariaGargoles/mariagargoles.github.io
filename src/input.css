@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'PermanentMarker-Regular'; /* Puedes asignar el nombre que prefieras */
-    src: url('assets/fonts/PermanentMarker-Regular.ttf') format('truetype'); /* Ajusta la ruta según la ubicación de tu fuente */
+    src: url('https://mariagargoles.github.io/assets/fonts/PermanentMarker-Regular.ttf') format('truetype'); /* Ajusta la ruta según la ubicación de tu fuente */
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@
 
 @font-face {
     font-family: 'Rock Salt'; /* Puedes asignar el nombre que prefieras */
-    src: url('assets/fonts/RockSalt-Regular.ttf') format('truetype');
+    src: url('https://mariagargoles.github.io/assets/fonts/RockSalt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     
@@ -46,7 +46,7 @@
 
 @font-face {
     font-family: 'ArchitectsDaughter-Regular'; /* Puedes asignar el nombre que prefieras */
-    src: url('assets/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
+    src: url('https://mariagargoles.github.io/assets/fonts/ArchitectsDaughter-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -55,4 +55,8 @@
     font-family: 'ArchitectsDaughter-Regular', sans-serif; /* Usa la fuente en tu página */
     margin-right: 8px;
     
+}
+
+.color-navy {
+    background-color: #00f3;
 }
