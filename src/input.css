@@ -57,6 +57,22 @@
     
 }
 
-.color-navy {
-    background-color: #00f3;
+.jscolor {
+    background-color: #F7E018;
+}
+
+.htmlcolor {
+    background-color: #E44D26;
+}
+
+.tailcolor {
+background-color: #35BEF8;
+}
+
+.phpcolor {
+background-color: #4F5B93;
+}
+
+.pythoncolor {
+background-color: #FFAB2E;
 }
