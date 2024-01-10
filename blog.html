@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css?v=sdfsfd">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <div class="flex flex-col min-h-screen bg-white">
-    <header class="py-6 px-4 bg-black shadow-md text-white">
+  <link href="./src/output.css" rel="stylesheet">
+  <title>Maria Gargoles Lajarin | Blog</title>
+  </head>
+  <div class="flex flex-col min-h-screen bg-gradient-to-br from-neutral-50 to-neutral-100">
+    <header class="py-6 px-4 bg-gradient-to-r from-cyan-500 to-lime-300 shadow-md text-white">
       <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-2xl font-bold text-white hover:text-orange-500">
+        <a href="#" class="text-2xl font-bold text-white hover:text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -25,55 +26,69 @@
             <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
-          My Blog
+          <h1 class="text-lg text-body"> Blog</h1>
         </a>
         <nav class="space-x-4">
           
-          <a href="http://localhost/portfolio/dev.html" class="text-white hover:text-orange-500">
-            Back
-          </a>
+          <button class="inline-flex items-center justify-center rounded-md text-lg font-extrabold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 bg-gradient-to-tr from-indigo-400 to-cyan-400 text-white hover:text-black hover:from-yellow-400 hover:to-rose-400 text-body">
+            <a href="./index.html"> Back </a>
+           </button>
         </nav>
         
       </div>
     </header>
     <main class="flex-1">
       <section class="container mx-auto p-6" id="article">
-        <h2 class="text-3xl font-bold text-black mb-4">Ultimo articulo</h2>
-        <div class="rounded-lg border text-card-foreground shadow-sm bg-orange-200" data-v0-t="card">
+        <h2 class="text-3xl font-bold text-black mb-4 head-title">Ultimo articulo</h2>
+        <div class="rounded-lg border text-card-foreground shadow-sm bg-gradient-to-br from-violet-200 to-cyan-100" data-v0-t="card">
           <div class="flex flex-col space-y-1.5 p-6">
-            <h3 class="text-lg font-bold text-black">Article</h3>
+            <h3 class="text-lg font-bold text-black about-title">Titulo articulo</h3>
           </div>
           <div class="p-6">
-            <p class="text-black">Article description...</p>
+            <p class="text-black text-body">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+              ¿Por qué lo usamos?
+              
+              Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+              
+              ¿De dónde viene?
+              
+              Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32
+              
+              El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.
+              ¿Dónde puedo conseguirlo?
+              
+              Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum generado siempre estará libre de repeticiones, humor agregado o palabras no características del lenguaje, etc.
+                
+                párrafos
+                palabras
+                bytes
+                listas
+                  Comenzar con 'Lorem
+              ipsum dolor sit amet...'
+                </p>
             <p class="text-sm text-black mt-2">Last updated: December 20, 2023</p>
-            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 mt-4 bg-orange-500 text-white">
-              Read More
-            </button>
+            
           </div>
         </div>
       </section>
       
     </main>
-    <footer class="py-6 px-4 bg-black shadow-md text-white mt-8">
+    <footer class="py-6 px-4 bg-gradient-to-l from-cyan-600 to-lime-300 shadow-md text-white mt-8">
       <div class="container mx-auto flex justify-between items-center">
-        <div class="flex space-x-4">
-          <span
-            class="relative flex shrink-0 overflow-hidden rounded-full w-10 h-10"
-            src="/placeholder.svg?height=40&amp;width=40"
-          ></span>
+        <div class="flex space-x-4"><span class="relative flex shrink-0 overflow-hidden rounded-full w-10 h-10"
+            src="/placeholder.svg?height=40&amp;width=40"></span>
           <div>
-            <h3 class="text-lg font-bold text-white">Maria Gargoles Lajarin</h3>
-            <p class="text-white">segwanda12@gmail.com</p>
+            <h3 class="text-lg font-extrabold text-white text-body">Maria Gargoles Lajarin</h3>
+            <p class="text-white font-bold hover:text-black text-body"> segwanda12@gmail.com</p>
           </div>
         </div>
-        <nav class="space-x-4">
-          <a href="https://www.linkedin.com/in/maria-gargoles-lajarin-ab9065101/" class="text-white hover:text-orange-500">
+        <nav class="space-x-4"><a href="https://www.linkedin.com/in/maria-gargoles-lajarin-ab9065101/"
+            class="text-white text-lg hover:text-black font-bold text-body">
             LinkedIn
-          </a>
-          <a href="https://www.linkedin.com/in/maria-gargoles-lajarin-ab9065101/" class="text-white hover:text-orange-500">
+          </a><a href="https://github.com/MariaGargoles"
+            class="text-white text-lg hover:text-black font-bold text-body">
             GitHub
-          </a>
-        </nav>
+          </a></nav>
       </div>
     </footer>
   </div>
